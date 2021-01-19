@@ -5,7 +5,6 @@
 }
 
 body {
-  /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
   background-color: #9266ff;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -40,7 +39,6 @@ form button {
 }
 
 form button {
-  /* color: #ff6f47; */
   color:firebrick ;
   background: #f7fffe;
   cursor: pointer;
@@ -48,8 +46,6 @@ form button {
 }
 
 form button:hover {
-  /* background: #ff6f47; */
-  /* background: rgb(202, 156, 24) ; */
   background:firebrick;
   color: white;
 }
@@ -86,7 +82,6 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  /* background: #ff6f47; */
   background: firebrick;
   color: white;
   border: none;
@@ -136,13 +131,14 @@ select {
   position: relative;
   overflow: hidden;
 }
+
 select {
-  /* color: #ff6f47; */
   color: firebrick;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
 }
+
 /* Arrow */
 .select::after {
   content: "\25BC";
@@ -150,14 +146,7 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  /* background: #ff6f47; */
   background: firebrick;
   cursor: pointer;
   pointer-events: none;
 }
-/* Transition */
-/*
-.select:hover::after {
-  transform: scale(1.5);
-}
-*/
